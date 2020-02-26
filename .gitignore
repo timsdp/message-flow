@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MessageFlow/.vs/MessageFlow
+/MessageFlow/MessageFlow/bin/Debug/netcoreapp2.2
+/MessageFlow/MessageFlow/obj
+/MessageFlow/MessageFlow.Model/obj
