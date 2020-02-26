@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -8,6 +8,7 @@
   <ItemGroup>
     <None Remove="Scripts\Enums\MessageStyle.ts" />
     <None Remove="Scripts\Enums\MessageType.ts" />
+    <None Remove="Scripts\Models\Element.ts" />
     <None Remove="Scripts\Models\Message.ts" />
   </ItemGroup>
 
@@ -23,6 +24,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Scripts\Enums\MessageType.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\Models\Element.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="Scripts\Models\Message.ts" />
