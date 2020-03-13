@@ -7,6 +7,6 @@ namespace MessageFlow.Model.Enum
     public enum MessageType
     {
         Message = 1,
-        Confirmation=
+        Confirmation=2
     }
 }

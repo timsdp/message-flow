@@ -1,0 +1,13 @@
+[
+  {
+    "outputFileName": "js/min/message.flow.min.js",
+    "inputFiles": [
+      "js/messageflow/*"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]
