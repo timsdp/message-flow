@@ -1,0 +1,3 @@
+﻿class ButtonControl extends Control{
+
+}

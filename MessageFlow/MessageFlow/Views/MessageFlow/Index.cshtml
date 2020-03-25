@@ -5,7 +5,15 @@
 
 <h1>Message flow</h1>
 
-<button class="btn btn-info">Start</button>
+<button class="btn btn-info" id="btnStart">Start</button>
 
 
-<script src=""></script>
+<script src="~/js/min/message.flow.min.js"></script>
+
+<script>
+    $('#btnStart').click(function () {
+        var messageFlowService = new MessageFlowService();
+        messageFlowService.FlowStart();
+    })
+
+</script>

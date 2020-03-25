@@ -13,6 +13,11 @@
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
   </PropertyGroup>
   <ItemGroup>
+    <TypeScriptCompile Update="Scripts\src\MessageFlow\Models\Controls\ButtonControl.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Update="Scripts\src\MessageFlow\Service\MessageFlowService.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>

@@ -2,5 +2,8 @@
     public Type: MessageType;
     public Style: MessageStyle;
     public Message: string;
-    public Elements: MessageElement[];
+    public Controls: Control[];
+    Show() {
+        toastr.info(this.Message);
+    }
 }

@@ -9,7 +9,8 @@
   <ItemGroup>
     <None Remove="Scripts\src\MessageFlow\Enums\MessageStyle.ts" />
     <None Remove="Scripts\src\MessageFlow\Enums\MessageType.ts" />
-    <None Remove="Scripts\src\MessageFlow\Models\Element.ts" />
+    <None Remove="Scripts\src\MessageFlow\Models\COntrol.ts" />
+    <None Remove="Scripts\src\MessageFlow\Models\Controls\ButtonControl.ts" />
     <None Remove="Scripts\src\MessageFlow\Models\Message.ts" />
     <None Remove="Scripts\src\MessageFlow\Models\MessageChain.ts" />
     <None Remove="Scripts\src\MessageFlow\Service\MessageFlowService.ts" />
@@ -18,9 +19,11 @@
 
   <ItemGroup>
     <PackageReference Include="BundlerMinifier.Core" Version="3.2.435" />
+    <PackageReference Include="jquery.TypeScript.DefinitelyTyped" Version="3.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="toastr" Version="2.1.1" />
   </ItemGroup>
 
 
@@ -31,9 +34,10 @@
     <TypeScriptCompile Include="Scripts\src\MessageFlow\Enums\MessageType.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="Scripts\src\MessageFlow\Models\Element.ts">
+    <TypeScriptCompile Include="Scripts\src\MessageFlow\Models\Control.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\src\MessageFlow\Models\Controls\ButtonControl.ts" />
     <TypeScriptCompile Include="Scripts\src\MessageFlow\Models\MessageChain.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
