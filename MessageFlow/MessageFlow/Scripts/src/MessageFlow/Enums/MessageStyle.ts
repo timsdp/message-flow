@@ -1,5 +1,6 @@
 ﻿enum MessageStyle {
-    Info = 1,
-    Warning = 2,
-    Critical = 3
+    Success = 1,
+    Info = 2,
+    Warning = 3,
+    Error = 4
 }

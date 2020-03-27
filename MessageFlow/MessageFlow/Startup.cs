@@ -57,7 +57,7 @@ namespace MessageFlow
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=MessageFlow}/{action=Index}/{id?}");
             });
         }
     }

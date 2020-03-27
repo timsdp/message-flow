@@ -2,14 +2,14 @@
   {
     "outputFileName": "wwwroot/js/min/message.flow.min.js",
     "inputFiles": [
-      //"wwwroot/js/MessageFlow/Enums/*",
+      "wwwroot/js/MessageFlow/Enums/*",
       "wwwroot/js/MessageFlow/Models/*",
       "wwwroot/js/MessageFlow/Models/Controls/*",
       "wwwroot/js/MessageFlow/Service/*"
     ],
     "minify": {
-      "enabled": false,
-      "renameLocals": false
+      "enabled": true,
+      "renameLocals": true
     },
     "sourceMap": false
   }

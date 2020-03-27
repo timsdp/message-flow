@@ -1,9 +1,25 @@
 ﻿class Message {
     public Type: MessageType;
     public Style: MessageStyle;
-    public Message: string;
+    public Title: string;
+    public Text: string;
     public Controls: Control[];
-    Show() {
-        toastr.info(this.Message);
+
+    toastOptions: ToastrOptions;
+
+    constructor() {
+        this.Controls = new Array<Control>();
+        this.toastOptions = {
+            positionClass: "toast-top-center",
+        }
+
     }
+
+    Show() {
+        let toastrStyle = this.Style.toString();
+        toastr.warning(this.Text, this.Title, this.toastOptions);
+    }
+
+
+
 }

@@ -1,1 +1,1 @@
-{"version":3,"file":"MessageStyle.js","sourceRoot":"","sources":["../../../../Scripts/src/MessageFlow/Enums/MessageStyle.ts"],"names":[],"mappings":"AAAA,IAAK,YAIJ;AAJD,WAAK,YAAY;IACb,+CAAQ,CAAA;IACR,qDAAW,CAAA;IACX,uDAAY,CAAA;AAChB,CAAC,EAJI,YAAY,KAAZ,YAAY,QAIhB"}
+{"version":3,"file":"MessageStyle.js","sourceRoot":"","sources":["../../../../Scripts/src/MessageFlow/Enums/MessageStyle.ts"],"names":[],"mappings":"AAAA,IAAK,YAKJ;AALD,WAAK,YAAY;IACb,qDAAW,CAAA;IACX,+CAAQ,CAAA;IACR,qDAAW,CAAA;IACX,iDAAS,CAAA;AACb,CAAC,EALI,YAAY,KAAZ,YAAY,QAKhB"}
